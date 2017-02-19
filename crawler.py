@@ -1,6 +1,6 @@
 import urllib2, re, time, Queue, threading, lxml, __builtin__, httplib
 from bs4 import BeautifulSoup as bs
-from decorators import retry
+from retry import retry
 
 global urlopen_with_retry, tanggal
 
